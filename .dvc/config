@@ -1,2 +1,7 @@
+[core]
+    remote = azblob
 ['remote "origin"']
     url = https://dagshub.com/jsprovoke/PigANoteOnDAGS.dvc
+['remote "azblob"']
+    url = azure://dvccache
+    connection_string = DefaultEndpointsProtocol=https;AccountName=dvcmacso;AccountKey=cVef3W6KbTpdJ9aButjeBlJ7HwsdQIOdLTNkPuelz8LRAQMjYlV9oHsAaxEMuhrSjcertBSqh+iF+AStXRyA+w==;EndpointSuffix=core.windows.net
