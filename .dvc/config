@@ -1,5 +1,3 @@
-[core]
-    remote = azblob
 ['remote "origin"']
     url = https://dagshub.com/jsprovoke/PigANoteOnDAGS.dvc
 ['remote "azblob"']
